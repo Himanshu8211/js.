@@ -36,3 +36,37 @@ let myObj ={
 
  console.log (typeof 'myFunction') //=> it tells about type 
 
+
+//https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+
+
+
+
+ //********************************************* *//
+
+ //stack memory(primitive) // heap memory(non-premitive).
+ // when varaible is define in stack then we got a copy and in heap memory we get refrence
+
+ let myName = "Himanshu"
+ 
+ let anothername = myName
+ anothername = "dubey"
+ console.log(anothername)
+ console.log(myName)
+
+
+ let userOne = {
+     email:"user123@gmail.com", 
+     upId:"wyeqr49ru4"
+ }
+ console.log(userOne)
+
+ let userTwo = userOne
+ userTwo.email = "user456@gamil.com"// we acn acess object by. 
+console.log(userTwo)
+   
+ 
